@@ -1,0 +1,4 @@
+
+public class AdminSachbearbeiterEditierenAAS extends SachbearbeiterEditierenAAS{
+	private AdminSachbearbeiterEditierenK kontrollklasse;
+}
