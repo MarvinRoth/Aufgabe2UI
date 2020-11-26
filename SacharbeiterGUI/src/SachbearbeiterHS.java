@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class SachbearbeiterHS {
 	Scanner eingabe = new Scanner(System.in);	
-	private LoginAAS login = new LoginAAS();
+	//private LoginAAS login = new LoginAAS();
 	private AdminSachbearbeiterAS adminarbeiter = new AdminSachbearbeiterAS();
 	private NormalSachbearbeiterAS normalarbeiter = new NormalSachbearbeiterAS();
 	public void oeffnen(){
@@ -18,7 +18,7 @@ public class SachbearbeiterHS {
 				System.exit(0);
 				break;
 			case 1:
-				login.oeffnen();
+				//login.oeffnen();
 				break;
 			default:
 				System.exit(0);

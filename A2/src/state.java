@@ -8,8 +8,7 @@ import javax.swing.event.ChangeListener;
 
 public class state extends JFrame {
     	public state() {
-    	JFrame frame = new JFrame();
-    	frame.setSize(500, 500);
+    	setSize(500,500);
 		getContentPane().setLayout(null);
 		
 		String[] items= {"Eins", "Zwei", "Drei", "Vier"};
